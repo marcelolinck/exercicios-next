@@ -1,0 +1,12 @@
+.integracao1 .vermelha{
+    color: #f30;
+    font-size: 3rem;
+}
+.integracao1 .azul{
+    color:#03fa;
+}
+/* Colocando dessa forma, ficará restrito ao css somente para a classe .integracao1   */
+.integracao1 .branca{
+    background-color: #d76f6f;
+    color: #fff;
+}

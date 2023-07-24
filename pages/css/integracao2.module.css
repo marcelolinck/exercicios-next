@@ -1,0 +1,25 @@
+/* 
+    Quando se coloca a palavra module no arquivo, ele fica disponivel somente para o componente indicado no nome nesse caso para o 
+    integracao2.jsx 
+*/
+
+#integracao2 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.vermelha{
+    color: #f30;
+    font-size: 3rem;
+}
+ .azul{
+    color:#03fa;
+}
+/* Colocando dessa forma, ficará restrito ao css somente para a classe .integracao1   */
+.branca{
+    background-color: #d76f6f;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
