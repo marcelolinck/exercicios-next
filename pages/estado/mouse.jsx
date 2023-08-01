@@ -9,7 +9,7 @@ export default function mouse() {
 
 //Aqui vai outra, considero mais adequada e elegante
 
-const [x, alterarX] = useState(0)
+const [x, setX] = useState(0)
 
    const arrayY = useState(0)
    let y = arrayY[0]
@@ -26,7 +26,7 @@ const [x, alterarX] = useState(0)
   };
 
   function quandoMover(ev){
-    alterarX(ev.clientX) 
+    setX(ev.clientX) 
     alterarY(ev.clientY)
 
   }
