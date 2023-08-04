@@ -11,9 +11,11 @@ export default function ContadorDisplay(props) {
         backgroundColor: "#222",
         color: "#fff",
         fontSize: "2rem",
+        flexDirection: "column"
       }}
       
     >
+      {/* Aqui está recebendo os dados via comunicacao direta */}
       {props.numero}
     </div>
   );

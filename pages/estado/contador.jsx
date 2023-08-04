@@ -5,7 +5,7 @@ import ContadorDisplay from '@/components/ContadorDisplay'
 export default function contador(){
 
     const botao = {
-        width: 100,
+        width: 30,
         heigth: 50,
         margin: 10, 
         alignItens: 'center',
@@ -31,8 +31,8 @@ export default function contador(){
     return (
         <div style={{
             display: "flex",
-            justifyContent: "center",
             flexDirection: "column", 
+            justifyContent: "center",
             alignItems: "center",
 
         }}>
@@ -40,8 +40,8 @@ export default function contador(){
             {/*<div>Valor: {numero}</div>*/}
             <ContadorDisplay numero={numero}/>
             <div>
-                <button onClick={inc} style={botao}> + </button>
                 <button onClick={dec} style={botao}> - </button>
+                <button onClick={inc} style={botao}> + </button>
             </div>
         </div>
     )
