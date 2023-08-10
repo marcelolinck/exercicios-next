@@ -8,7 +8,7 @@ export default function mouse() {
 //    const alterarX = arrayX[1] 
 
 //Aqui vai outra, considero mais adequada e elegante
-
+//React Hooks - componente funcional
 const [x, setX] = useState(0)
 
    const arrayY = useState(0)
