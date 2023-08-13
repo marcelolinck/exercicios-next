@@ -1,13 +1,15 @@
+import Contador from "@/components/Contador";
 import { Component} from "react";
 
-export default class Contador extends Component{
+export default class ContadorPage extends Component{
 
     // Com o metodo render, consigo rendenizar uma classe na tela
 
     render(){
         return(
             <div>
-                <h1>Teste Classe</h1>
+                <Contador valorInicial={100} passo={37}/>
+                {/* <Contador /> */}
             </div>
         )
     }
